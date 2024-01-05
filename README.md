@@ -1,7 +1,7 @@
 # bi0s
 **bi0s pentest challenges repository**
 
-##challenges questions
+## challenges questions  
 **1.**
 ***( a.) Display the path of your current directory***  
 ***( b.) List out the contents of your current directory***  
@@ -46,11 +46,15 @@
 ***( a.) Go to directory a. Get the man page of grep and save its contents to a file named “grepman.txt”***  
 ***( b.) Print the lines containing the word “FILE” (Case sensitive) in the file “grepman.txt”***  
 
+### answer1
+
 ![answer1](https://github.com/komalrao1/bi0s/assets/147682987/0ee4ab67-b1c4-4bac-b4cd-915c84eae798)
 
 **9.**
 ***( a.) Go to directory a and remove the directory b with a single command***  
 ***( b.) Remove the files starting with the word “file” with a single command***  
+
+#### answer2
 
 ![answer2](https://github.com/komalrao1/bi0s/assets/147682987/662264e3-7980-4b53-bf88-3c5dd1d3c16c)
 
