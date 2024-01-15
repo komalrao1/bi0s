@@ -47,7 +47,7 @@
 ***( b.) Print the lines containing the word “FILE” (Case sensitive) in the file “grepman.txt”***    
 
 ![answer1](https://github.com/komalrao1/bi0s/assets/147682987/0ee4ab67-b1c4-4bac-b4cd-915c84eae798)  
-                                                          **----------------------------------------------------------------------------------------**   
+     --------------------------------------------------------------------------------------------------------------------------------------------------------
 1.    
 * **pwd** command will return the path of the current working directory.    
 * **ls** command will return the unhidden files.    
@@ -90,8 +90,7 @@
 ***( b.) Remove the files starting with the word “file” with a single command***     
 
 ![answer2](https://github.com/komalrao1/bi0s/assets/147682987/662264e3-7980-4b53-bf88-3c5dd1d3c16c)   
-                                                       **-----------------------------------------------------------------------------------------------**   
-9.   
+    --------------------------------------------------------------------------------------------------------------------------------------------------------
 * **rm -rf <dir -path>** will delete the folder in the path if basename is folder. If basename is a file it removes the file   
 * **rm <filename>** will delete the file from the current working directory   
 
@@ -100,7 +99,7 @@
 ***(b.) Do the same with python script (Hint : request library)***   
 ***(c.) Also, display the metadata of the png.***    
 ![answer3](https://github.com/komalrao1/bi0s/assets/147682987/55d569a8-a270-4aac-80ab-ffbd6a9ef397)   
-                                                       **-----------------------------------------------------------------------------------------------**   
+    --------------------------------------------------------------------------------------------------------------------------------------------------------
 10.                                                 
 * ***a.*** **wget <url>** will download the contents from the given url. The url must contain the downloading link    
 * ***b.***    
@@ -116,7 +115,7 @@
 ***( a.) Use traceroute on google.com and find list of the IP addresses and hostnames between you and  google.com***    
 ***( b.) Find  Subdomains,ip addresses of google.com using nslookup command***     
 ![answer4](https://github.com/komalrao1/bi0s/assets/147682987/1f3b168d-8e2d-4070-9fac-4be231ea2a2c)     
-                                                       **-----------------------------------------------------------------------------------------------**     
+    --------------------------------------------------------------------------------------------------------------------------------------------------------
 11.    
 * **a.** **traceroute <domainname>** will return in detail about the each hop present between us and the domain.if it cound find details about hop then it return stars.    
 * **b.** **nslookup <domainname>** is used for getting information from the DNS server. **-type=ns** will ouput the nameservers which are associated with the server    
@@ -142,7 +141,7 @@
 ![answer10(a)](https://github.com/komalrao1/bi0s/assets/147682987/ab117e55-235a-4a49-83f1-6340c688fecb)   
 
 ![answer10](https://github.com/komalrao1/bi0s/assets/147682987/ee6d671c-9523-4a7f-a4de-f8bbd8a431af)   
-                                                       **-----------------------------------------------------------------------------------------------**     
+    --------------------------------------------------------------------------------------------------------------------------------------------------------
 **14.**    
 * **nc(Netcat)** is used for reading and writing data between teo computer networks    
 * **a.**    
@@ -155,7 +154,7 @@
 ![Screenshot from 2024-01-10 23-05-38](https://github.com/komalrao1/bi0s/assets/147682987/d891c21f-37bd-4384-a56c-75116f7063f8)     
 
 ![answer11](https://github.com/komalrao1/bi0s/assets/147682987/cd42f5b7-0cf3-444a-be59-62555a57e38d)     
-                                                       **-----------------------------------------------------------------------------------------------**      
+     --------------------------------------------------------------------------------------------------------------------------------------------------------     
 * **b.**    
   -Here Device1 will be in listen mode by opening a file which has to be shared     
   -And the device two will connect to device1 and while connecting it will redirect the shared file to its current working directory    
@@ -165,20 +164,20 @@
 **1**    
 [**a.** ***h acker rank***](https://www.hackerrank.com/challenges/python-loops/problem?isFullScreen=true)   
 ![answer 12(a)](https://github.com/komalrao1/bi0s/assets/147682987/7885acf3-d4cd-4774-9f82-6a3e434653d2)  
-                                                       **-----------------------------------------------------------------------------------------------**    
+     --------------------------------------------------------------------------------------------------------------------------------------------------------
 * **a.** I have solved this using the for loop   
 ![answer 12(b)](https://github.com/komalrao1/bi0s/assets/147682987/ae9492f0-4971-4e84-8958-cbf9f9b65c7f)   
 
 [**b.** ***hacker rank***](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true)   
 ![answer 13(a)](https://github.com/komalrao1/bi0s/assets/147682987/f4d4ba34-da8a-4380-9f21-8f057796bd7c)    
-                                                       **-----------------------------------------------------------------------------------------------**    
+    --------------------------------------------------------------------------------------------------------------------------------------------------------
 * **b.** I have added two values using **'+'** operator ,subtracted two values using **'-'** operator and multiplied two number using **' * '** operator.I have used escape character to print in newlines **(\n)**   
 ![answer 13(b)](https://github.com/komalrao1/bi0s/assets/147682987/dd9847ba-33c5-415e-9015-87fe7a47b7d5)    
 
 **2.**    
  ***Make a one line python program to find whether the given year is leap or not.***    
  ![Screenshot from 2024-01-11 09-25-36](https://github.com/komalrao1/bi0s/assets/147682987/a932c3de-9ccf-48a1-81d1-49f8f36ca4d6)    
-                                                        **-----------------------------------------------------------------------------------------------**   
+    --------------------------------------------------------------------------------------------------------------------------------------------------------
  * **2** I have written using single line **if else** statements and i seperated statements using **;**    
 
 **3.**    
@@ -193,8 +192,8 @@
    ***- HMAC for message authentication.***     
 
    ![answer 14](https://github.com/komalrao1/bi0s/assets/147682987/1e27c7d8-b4b4-4d30-a618-d1a3b1a4e1a4)    
-   ![answer 14](https://github.com/komalrao1/bi0s/assets/147682987/d1b49668-3d0a-4c28-8ea6-5e599a32434a)    
-                                                          **-----------------------------------------------------------------------------------------------**   
+   ![answer 14](https://github.com/komalrao1/bi0s/assets/147682987/d1b49668-3d0a-4c28-8ea6-5e599a32434a)     
+    --------------------------------------------------------------------------------------------------------------------------------------------------------  
 
 * **3**    
   - I have written chat application using socket programming    
@@ -222,7 +221,8 @@
       -If the two digests doesnot match the connection between client and server ends     
 
 
-    #-----------------------------------------------------------------------**THE END**-----------------------------------------------------------------------
+    -----------------------------------------------------------------------**THE END**-----------------------------------------------------------------------
+
  
 
 
