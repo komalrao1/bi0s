@@ -98,15 +98,15 @@
  ![Screenshot from 2024-01-11 09-25-36](https://github.com/komalrao1/bi0s/assets/147682987/a932c3de-9ccf-48a1-81d1-49f8f36ca4d6)
 
 **3.**
-**1. Write a chat application using socket programming.**
-   ***Consider a small chat program with two processes, A and B:***
-   ***A: Establish a connection over sockets and send a message/data to the server side/receiver side.***
-   ***B: Receive the connection and send a message/response back.***
-   ***Feel free to use any library functions.***
-   ***The application should include the following security features:***
-   ***- Symmetric key encryption for confidentiality (You can use any algorithm).***
-   ***- SHA-512 for integrity.***
-   ***- HMAC for message authentication.***
+**1. Write a chat application using socket programming.**  
+   ***Consider a small chat program with two processes, A and B:***  
+   ***A: Establish a connection over sockets and send a message/data to the server side/receiver side.***  
+   ***B: Receive the connection and send a message/response back.***  
+   ***Feel free to use any library functions.***  
+   ***The application should include the following security features:***  
+   ***- Symmetric key encryption for confidentiality (You can use any algorithm).***  
+   ***- SHA-512 for integrity.***  
+   ***- HMAC for message authentication.***  
 
    ![answer 14](https://github.com/komalrao1/bi0s/assets/147682987/1e27c7d8-b4b4-4d30-a618-d1a3b1a4e1a4)
    ![answer 14](https://github.com/komalrao1/bi0s/assets/147682987/d1b49668-3d0a-4c28-8ea6-5e599a32434a)
