@@ -156,8 +156,8 @@
 ![answer11](https://github.com/komalrao1/bi0s/assets/147682987/cd42f5b7-0cf3-444a-be59-62555a57e38d)     
      --------------------------------------------------------------------------------------------------------------------------------------------------------         
 * **b.**     
-  -Here Device1 will be in listen mode by opening a file which has to be shared     
-  -And the device two will connect to device1 and while connecting it will redirect the shared file to its current working directory    
+  - Here Device1 will be in listen mode by opening a file which has to be shared     
+  - And the device two will connect to device1 and while connecting it will redirect the shared file to its current working directory    
 
 
 # **CODING CHALLENGES**      
@@ -198,27 +198,27 @@
 * **3**    
   - I have written chat application using socket programming    
   - #### SERVER SIDE ####    
-    -i created a socket object using ipv4 and tcp and binded it to a my ip adress and a port .Then i have kept the server in listening mode for one device    
+    - i created a socket object using ipv4 and tcp and binded it to a my ip adress and a port .Then i have kept the server in listening mode for one device
     - accept method will a tuple of socket and address of the client.Then i used **recv()** method to receive messages from client.     
     - I used **send()** method to share message from server side. When i receive the message ***close*** from the **client** the connection to the client will be closed     
     - during the sending and receiving process i made encryption using **PyCryptodome** module .I have imported **HMAC,SHA,pad,unpad,AES** .The below is the process of encryption and decryyption and hmac    
     - ##### DURING RECEVING #####    
-      -The server will receive a ***encrypted message*** and ***HMAC digest***     
-       -The message is then sent to hmac function .Once the hmac function generated digest matches the received digest from the client, Then the message will be auhenticated and willbe sent for decryption     
-       -If the two digests doesnot match the connection between client and server ends    
+      - The server will receive a ***encrypted message*** and ***HMAC digest***     
+       - The message is then sent to hmac function .Once the hmac function generated digest matches the received digest from the client, Then the message will be auhenticated and willbe sent for decryption     
+       - If the two digests doesnot match the connection between client and server ends    
     - ##### DURING SENDING #####     
-      -the server will generate a hmac digest and encrptys the message.     
-      -After the both processes done the message will be sent to the client     
+      - the server will generate a hmac digest and encrptys the message.     
+      - After the both processes done the message will be sent to the client     
   - #### CLIENT SIDE ####     
     - I created a socket object using ipv4 and tcp and used **connect()** method to connect to the server IP and port.     
     - Then i have sent data from client to server using **send()** method and received data from server using **recv()** method     
     - ##### DURING SENDING ######      
-      -the client will generate a hmac digest and encrptys the message.     
-      -After the both processes done the encryptedmessage and digest will be sent to the client.     
+      - the client will generate a hmac digest and encrptys the message.     
+      - After the both processes done the encryptedmessage and digest will be sent to the client.     
     - ##### DURING RECEIVING #####     
-      -The client will receive a ***encrypted message*** and ***HMAC digest***      
-      -The message is then sent to hmac function .Once the hmac function generated digest matches the received digest from the server, Then the message will be auhenticated and will be sent for decryption     
-      -If the two digests doesnot match the connection between client and server ends     
+      - The client will receive a ***encrypted message*** and ***HMAC digest***      
+      - The message is then sent to hmac function .Once the hmac function generated digest matches the received digest from the server, Then the message will be auhenticated and will be sent for decryption     
+      - If the two digests doesnot match the connection between client and server ends     
 
 
     -----------------------------------------------------------------**THE END**-----------------------------------------------------------------
