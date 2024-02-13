@@ -220,6 +220,14 @@
       - The message is then sent to hmac function .Once the hmac function generated digest matches the received digest from the server, Then the message will be auhenticated and will be sent for decryption     
       - If the two digests doesnot match the connection between client and server ends     
 
+# **Bash challenges** 
+### Java
+- I have opened Learnjava.class file and understood the java code.After that i have written a python code to find the flag
+- ![Screenshot from 2024-02-13 14-30-18](https://github.com/komalrao1/bi0s/assets/147682987/b25ae39d-cb42-4054-b677-2241b926ab70)
+- ![Screenshot from 2024-02-13 14-30-42](https://github.com/komalrao1/bi0s/assets/147682987/7b0f9270-9351-4746-be0e-a49021b06259)
+
+
+
 
     -----------------------------------------------------------------**THE END**-----------------------------------------------------------------
  
